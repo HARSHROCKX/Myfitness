@@ -1,0 +1,31 @@
+body{
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ #header{
+    background-color:rgb(37, 42, 52);
+    color: white;
+ }
+ 
+ .navbar-brand:hover{
+    background-color: azure;
+    color: black;
+ }
+
+.container-fluid{
+    padding: 2% 10%;
+}
+
+.slogan{
+    text-align: left;
+}
+.home{
+    padding: 5rem 0 0 0 ;
+}
+.btn{
+    margin: 3rem 1rem;
+}
+.photo{
+    width: 50%;
+    margin-left: 2rem;
+}
