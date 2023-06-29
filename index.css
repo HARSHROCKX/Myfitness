@@ -1,11 +1,14 @@
 body{
    text-align: center;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Ubuntu', sans-serif;
 }
  #header{
     background-color:rgb(37, 42, 52);
+    font-weight: bolder;
     color: white;
  }
+
+ 
  
  .navbar-brand:hover{
     background-color: azure;
@@ -14,10 +17,14 @@ body{
 
 .container-fluid{
     padding: 2% 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .slogan{
     text-align: left;
+    font-weight: bolder;
+    
 }
 .home{
     padding: 5rem 0 0 0 ;
@@ -27,5 +34,64 @@ body{
 }
 .photo{
     width: 50%;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    margin: auto;
 }
+
+
+
+/* pricing */
+
+
+#pricing{
+    padding-top: 7rem ;
+    background-color:rgb(37, 42, 52);
+}
+
+.card{
+    margin: 5%;
+    padding: 3rem;
+    background-color:rgb(37, 42, 52);
+    color: white;
+    border-color: white;
+   
+}
+
+.card:hover{
+    background-color: rgb(155, 164, 181);
+    color: black;
+   
+}
+.card-title{
+    color: red;
+    font-weight: bold;
+    padding-top: 2rem;
+
+}
+.card-image{
+    margin: auto;
+    width: 50%;
+}
+
+
+/* information */
+
+
+/* #info{
+    padding-top: 3rem;
+} */
+.info-slogan{
+    background-color: black;
+    color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    font-weight:bolder;
+    
+}
+.info-line{
+    margin-top: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
